@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/groupmaptype"
+        android:title="SELECT MAP TYPE" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/maptypeNORMAL"
+                android:title="NORMAL" />
+            <item android:id="@+id/maptypeSATELITE"
+                android:title="SATELLITE" />
+            <item android:id="@+id/maptypeTERRAIN"
+                android:title="TERRAIN" />
+            <item android:id="@+id/maptypeHYBRID"
+                android:title="HYBRID" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_addmarkers"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:title="Addmarker"/>
+
+
+</menu>
